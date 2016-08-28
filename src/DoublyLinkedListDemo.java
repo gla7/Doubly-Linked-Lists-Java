@@ -38,6 +38,24 @@ public class DoublyLinkedListDemo {
 		orderedList2.insertNewElement(88);
 		
 		System.out.println(orderedList2);
+		
+		System.out.println("TESTING OUT SORTING:");
+		
+		DoublyLinkedList orderedList3 = new DoublyLinkedList();
+		
+		orderedList3.insertAtHead(8);
+		orderedList3.insertAtHead(10);
+		orderedList3.insertAtHead(2);
+		orderedList3.insertAtHead(4);
+		orderedList3.insertAtHead(6);
+		orderedList3.insertAtHead(3);
+		orderedList3.insertAtHead(7);
+		orderedList3.insertAtHead(1);
+		orderedList3.insertAtHead(5);
+		orderedList3.insertAtHead(9);
+		
+		System.out.println(orderedList3);
+		System.out.println(orderedList3.sort());
 	}
 
 }
